@@ -15,15 +15,14 @@
 </head>
 
 <body>
-    <div id="target" class="box"></div>
+    <div class="box"></div>
 
-    <script>
-        'use strict';
+    <script id="target" class="box">
+    'use strict';
 
-        document.getElementById('target').addEventListener('click', function () {
-            document.getElementById('target').style.background = 'pink';
-            document.getElementById('target').style.borderRadius = '50%';
-        })
+    document.getElementById('target').addEventListener('click' , function() {
+        document.getElementById('target').style.background = pink;
+    })
     </script>
 </body>
 
